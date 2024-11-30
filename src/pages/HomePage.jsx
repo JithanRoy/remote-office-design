@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Features from '../components/Features';
-import Testimonials from '../components/Testimonials';
+import EnsuringAccessSection from '../components/EnsuringAccessSection.jsx';
 import Footer from '../components/Footer';
+import MarqueeSection from "../components/MarqueeSection.jsx";
 
 const HomePage = () => {
   return (
-    <div className="bg-gray-100">
-      <Navbar />
-      <Hero />
-      <Features />
-      <Testimonials />
-      <Footer />
+    <div className="w-full bg-gray-100">
+      <Navbar/>
+      <Hero/>
+      <MarqueeSection/>
+      <EnsuringAccessSection/>
+      <Footer/>
     </div>
   );
 };
