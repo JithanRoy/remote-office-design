@@ -1,9 +1,9 @@
 import React from 'react';
-import CustomButton from "./shared/custom-button/index.jsx";
+import CustomButton from './shared/custom-button/index.jsx';
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full container-md px-8 lg:px-20 z-50 inset-x-0 top-0 bg-white shadow-md">
+    <nav className="fixed w-full container-2xl px-8 lg:px-20 z-[50] inset-x-0 top-0 bg-white shadow-md">
       <div className=" flex justify-between items-center py-4">
         <a href="/" className="flex items-center">
           <img
@@ -39,8 +39,7 @@ const Navbar = () => {
               </svg>
             </button>
 
-            <div
-              className="absolute z-80 left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300">
+            <div className="absolute z-80 left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300">
               <a
                 href="/technology"
                 className="block px-4 py-2 hover:text-secondary hover:bg-gray-100"
@@ -85,7 +84,7 @@ const Navbar = () => {
           >
             Career
           </a>
-          <CustomButton label="Get Started"/>
+          <CustomButton label="Get Started" />
         </div>
         {/*<a*/}
         {/*  href="/contact"*/}
@@ -93,7 +92,6 @@ const Navbar = () => {
         {/*>*/}
         {/*  Get Started*/}
         {/*</a>*/}
-
 
         {/*<button className="block md:hidden">*/}
         {/*  <svg*/}

@@ -6,10 +6,44 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
+
+.scroll_container {
+    height: 400vh;
+}
+
+.horizontal_scroll {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 400vw;
+    will-change: transform;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll_contents {
+    height: 100%;
+    width: 100vw;
+}
+
+.sticky_wrap {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
 }
