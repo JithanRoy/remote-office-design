@@ -73,7 +73,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
           src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/653cd44aa20cd20e8fb58345_Sphere.webp"
           alt="Sphere"
-          className="w-full h-full object-cover"
+          className="max-w-[90%] h-full object-cover"
         />
         <motion.img
           initial={{ opacity: 0, x: -50 }}
