@@ -4,9 +4,8 @@ import DiscordCart from '../components/shared/DiscortCart.jsx'; // Replace with 
 const Footer = () => {
   return (
     <>
-      <section className="section_footer py-16 bg-primary">
+      <section className="section_footer py-24 bg-primary px-5 sm:px-0">
         <div className="container mx-auto w-full flex flex-wrap sm:flex-nowrap items-center gap-8 md:gap-16">
-          {/* Footer Left Section */}
           <div className="footer-left w-full md:w-[30%]">
             <a href="#" className="nav-logo-wrapper footer w-inline-block">
               <img
@@ -52,7 +51,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Footer Right Section */}
           <div className="footer-right w-full md:w-[70%] text-white">
             <div className="footer-top mb-8 text-center md:text-left">
               <p className="text-lg leading-relaxed">

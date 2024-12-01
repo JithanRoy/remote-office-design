@@ -3,18 +3,16 @@ import CustomButton from './shared/custom-button/index.jsx';
 
 const WhyRemoteOffice = () => {
   return (
-    <section className="section_why-remote-office bg-vivid-yellow py-24">
+    <section className="section_why-remote-office bg-vivid-yellow py-24 px-5 sm:px-0">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-16">
-        {/* Left Tab Content */}
         <div className="">
           <img
-            src="/public/assets/remote-office.png"
+            src="/assets/remote-office.png"
             alt="Remote Office"
             className="w-[950px]"
           />
         </div>
 
-        {/* Right Section */}
         <div className="why-remote-wrapper flex flex-col gap-4 w-full lg:w-1/3">
           <h2 className="text-3xl font-bold">Why Remote Office?</h2>
           <p>

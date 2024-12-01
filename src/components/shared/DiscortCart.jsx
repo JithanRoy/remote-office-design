@@ -1,10 +1,8 @@
 import React from 'react';
-import CustomButton from './custom-button/index.jsx';
 
 const DiscordCart = () => {
   return (
     <div className="discord-wrapper bg-secondary rounded-lg p-4 flex flex-col items-center">
-      {/* Image Section */}
       <div className="discord-image-wrapper w-full h-40 mb-4">
         <img
           src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/6548a50f206e0be7d8586c05_Discord%20Image%20cover.webp"
@@ -13,7 +11,6 @@ const DiscordCart = () => {
         />
       </div>
 
-      {/* Info Section */}
       <div className="discord-info-wrapper text-center flex flex-col items-center px-4">
         <p className="bold-footer text-lg font-bold mb-2">
           Join our community:

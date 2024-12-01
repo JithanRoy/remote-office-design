@@ -52,17 +52,15 @@ const TestimonialSection = () => {
   const { text, name, role, image } = testimonials[current];
 
   return (
-    <section className="bg-light-green py-16 px-8">
+    <section className="bg-light-green py-24 px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start">
-          {/* Left Heading */}
           <div className="lg:w-1/4 min-h-20 sm:min-h-[250px]">
             <h2 className="text-4xl font-bold text-dark-cyan mb-4">
               Clients say
             </h2>
           </div>
 
-          {/* Right Content */}
           <div
             className={`lg:w-3/4 flex flex-col items-start transition-transform duration-500 ease-in-out ${animationClass}`}
           >
@@ -75,7 +73,6 @@ const TestimonialSection = () => {
               <p className="text-xl text-dark font-medium">{text}</p>
             </div>
 
-            {/* Client Details */}
             <div className="flex items-center mt-4">
               <img
                 src={image}
@@ -90,7 +87,6 @@ const TestimonialSection = () => {
           </div>
         </div>
 
-        {/* Navigation Arrows */}
         <div className="flex justify-between items-center mt-8">
           <button
             onClick={handlePrev}

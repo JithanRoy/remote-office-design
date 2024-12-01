@@ -11,7 +11,7 @@ import TestimonialSection from '../components/TestimonialSection.jsx';
 
 const HomePage = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-100 ">
       <Navbar />
       <Hero />
       <MarqueeSection />
