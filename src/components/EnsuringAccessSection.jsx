@@ -14,10 +14,8 @@ const EnsuringAccessSection = () => {
             </h2>
           </div>
         </div>
-        {/* First Item */}
         <section className="bg-primary text-white w-full py-16">
           <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
-            {/* Text Content */}
             <div className="lg:w-1/2 w-full flex flex-col gap-6">
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
                 Ad blueprint with credits + internal community
@@ -43,16 +41,13 @@ const EnsuringAccessSection = () => {
               </a>
             </div>
 
-            {/* Image Content */}
             <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
-              {/* Floating Small Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654c4c5458ba8fef7c130d6f_Ensure%20item%20-%201.webp"
                 alt="icon"
                 className="absolute hidden lg:block left-[0rem] top-0 w-[450px] z-10"
               />
 
-              {/* Main Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654496577fb141e2a8157240_ensuring-access%20image%201.webp"
                 alt="Blueprint"
@@ -62,10 +57,8 @@ const EnsuringAccessSection = () => {
           </div>
         </section>
 
-        {/*SECOND ITEM*/}
         <section className="bg-primary text-white w-full py-16">
           <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
-            {/* Text Content */}
             <div className="lg:w-1/2 w-full flex flex-col gap-6">
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
                 Screening, grading and assessment
@@ -90,37 +83,31 @@ const EnsuringAccessSection = () => {
               </a>
             </div>
 
-            {/* Image Content */}
             <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
-              {/* First Image */}
               {/*<img*/}
               {/*  src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/6544969472163e3d72afb3b4_ensuring-access%20image%202.webp"*/}
               {/*  alt="Match Icon"*/}
               {/*  className="absolute hidden lg:block w-[120px] rounded-md border border-white z-10 -top-[3rem] left-[-3rem]"*/}
               {/*/>*/}
 
-              {/* Second Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654490dee7199c24f9d7d22d_Ensure%20item%20-%202a.webp"
                 alt="Resume Review"
                 className="animate__animated animate__backInLeft absolute hidden lg:block w-[200px] top-[2rem] left-[4rem] rounded-md"
               />
 
-              {/* Third Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/6544915fd4ceb86b86568efb_Ensure%20item%20-%202c.webp"
                 alt="Assessment Icon"
                 className="animate__animated animate__backInLeft absolute hidden lg:block w-[270px] top-[20rem] right-[24rem] rounded-md"
               />
 
-              {/* Fourth Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654491af4b610b8a8160bae5_Ensure%20item%20-%202b.webp"
                 alt="Assessment Icon"
                 className="animate__animated animate__backInLeft absolute hidden lg:block w-[270px] top-[3rem] -right-[4rem] rounded-md"
               />
 
-              {/* Main Image */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/6544969472163e3d72afb3b4_ensuring-access%20image%202.webp"
                 alt="Blueprint"
@@ -130,10 +117,8 @@ const EnsuringAccessSection = () => {
           </div>
         </section>
 
-        {/*third item*/}
         <section className="bg-primary text-white w-full py-16">
           <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
-            {/* Text Content */}
             <div className="lg:w-1/2 w-full flex flex-col gap-6">
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
                 Machine-led interview
@@ -158,16 +143,13 @@ const EnsuringAccessSection = () => {
               </a>
             </div>
 
-            {/* Image Content */}
             <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
-              {/* Main Image (Visible on all devices) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/65449a783cd8823f8f003635_ensuring-access%20image%203.webp"
                 alt="Blueprint"
                 className="w-full lg:w-3/4 rounded-md"
               />
 
-              {/* Secondary Image (Hidden on mobile) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/65489565c7a8b83ccee4cf72_Ensure%20item%20-%203.webp"
                 alt="Blueprint Secondary"
@@ -177,10 +159,8 @@ const EnsuringAccessSection = () => {
           </div>
         </section>
 
-        {/*fourth ITEM*/}
         <section className="bg-primary text-white w-full py-16">
           <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
-            {/* Text Content */}
             <div className="lg:w-1/2 w-full flex flex-col gap-6">
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
                 Technical challenge
@@ -206,16 +186,13 @@ const EnsuringAccessSection = () => {
               </a>
             </div>
 
-            {/* Image Content */}
             <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
-              {/* Main Image (Visible on all devices) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/65449ad174ceec05589bbaea_ensuring-access%20image%204.webp"
                 alt="Blueprint"
                 className="w-full lg:w-3/4 rounded-md"
               />
 
-              {/* Secondary Image (Hidden on mobile) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654ddc1eb83cf113ff513d39_Ensure%20item%20-%204.webp"
                 alt="Secondary Blueprint"
@@ -225,10 +202,8 @@ const EnsuringAccessSection = () => {
           </div>
         </section>
 
-        {/*fifth item */}
         <section className="bg-primary text-white w-full py-16">
           <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
-            {/* Text Content */}
             <div className="lg:w-1/2 w-full flex flex-col gap-6">
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
                 Client review
@@ -253,16 +228,13 @@ const EnsuringAccessSection = () => {
               </a>
             </div>
 
-            {/* Image Content */}
             <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
-              {/* Main Image (Visible on all devices) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/654762ce5abe30b2414f5862_ensuring-access%20image%205.webp"
                 alt="Main Blueprint"
                 className="w-full lg:w-3/4 rounded-md"
               />
 
-              {/* Secondary Image (Hidden on mobile) */}
               <img
                 src="https://cdn.prod.website-files.com/65339a5954614fc8abbf5c9a/6548a86f25f97ae6124b96a5_Ensure%20item%20-%205.webp"
                 alt="Secondary Blueprint"
